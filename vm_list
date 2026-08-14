@@ -7,3 +7,8 @@ echo "======================================="
 echo
 echo "========== VPC NETWORKS =========="
 gcloud compute networks list
+
+
+echo
+echo "========== VM INSTANCES =========="
+gcloud compute instances list
