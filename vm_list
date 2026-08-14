@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "======================================="
+echo "Project : $(gcloud config get-value project)"
+echo "======================================="
+
+echo
+echo "========== VPC NETWORKS =========="
+gcloud compute networks list
