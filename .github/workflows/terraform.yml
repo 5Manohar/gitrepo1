@@ -17,6 +17,7 @@ jobs:
 
     env:
       TF_VAR_project_id: project-97276faf-460e-4e5f-a7b
+      TF_VAR_vm_name: github-actions-training-vm
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
